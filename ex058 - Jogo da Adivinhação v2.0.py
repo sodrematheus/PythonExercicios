@@ -1,6 +1,6 @@
 from random import randint
 pc = randint(0, 10)
-print('''Pensarei um número de 0 a 10.
+print('''Pensei em um número de 0 a 10.
 Tente Advinhar!
 ''')
 acertou = False
@@ -17,5 +17,4 @@ while not acertou:
 			print('Menos... Tente novamente!')
 		if jogador < pc:
 			print('Mais... Tente novamente!')
-print('Com {} tentativas. Você acertou!!!'.format(palpites))
-
+print('Com {} tentativa(s). Você acertou!!!'.format(palpites))
