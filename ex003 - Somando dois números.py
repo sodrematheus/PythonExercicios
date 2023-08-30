@@ -1,4 +1,4 @@
-print('Informe dois números que te darei o resultado.')
+print('Informe dois números que te darei a soma deles.')
 numero_1 =int(input('Digite um número: '))
 numero_2 = int(input('Digite outro número: '))
 soma = numero_1+numero_2
