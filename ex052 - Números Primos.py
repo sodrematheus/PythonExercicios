@@ -7,7 +7,7 @@ for c in range(1, n + 1):
     else:
         print('\33[31m', end=' ')
     print('{}'.format(c), end=' ')
-print('\n O número {} é divisivel por {} números.'.format(n, cont))
+print('\nO número {} é divisivel por {} números.'.format(n, cont))
 if cont == 2:
     print('O {} é um número primo.'.format(n))
 else:
