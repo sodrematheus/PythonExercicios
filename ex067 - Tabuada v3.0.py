@@ -7,3 +7,4 @@ while True:
         break
     for cont in range(1,11):
         print(f'{n} x {cont} = {n*cont}')
+print('Programa tabuada encerrado. Volte sempre!')
